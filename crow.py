@@ -1,7 +1,7 @@
 class Crow:
     def __init__(self, par_count, pa_count):
-        self.__par_count = par_count
-        self.__pa_count = pa_count
+        self.set_par_count(par_count)
+        self.set_pa_count(pa_count)
 
     def set_par_count(self, par_count):
         if type(par_count) != int:
@@ -24,4 +24,4 @@ class Crow:
         return self.__pa_count
 
     def __str__(self):
-        return f'Engine is {self.__par_count}  and Speed is {self.__pa_count}
+        return f'Par is {self.__par_count}  and Pa is {self.__pa_count}'
