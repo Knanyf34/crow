@@ -22,3 +22,6 @@ class Crow:
 
     def get_pa_count(self):
         return self.__pa_count
+
+    def __str__(self):
+        pass
