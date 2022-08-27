@@ -24,4 +24,4 @@ class Crow:
         return self.__pa_count
 
     def __str__(self):
-        pass
+        return f'Engine is {self.__par_count}  and Speed is {self.__pa_count}
